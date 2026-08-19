@@ -8,7 +8,7 @@ app = Flask(__name__)
 MODEL_DIR = "saved_models"
 
 # Load model and preprocessing objects
-model = joblib.load(os.path.join(MODEL_DIR, "Ensemble.joblib"))
+model = joblib.load(os.path.join(MODEL_DIR, "SVM_RBF.joblib"))
 scaler = joblib.load(os.path.join(MODEL_DIR, "scaler.joblib"))
 label_encoder = joblib.load(os.path.join(MODEL_DIR, "label_encoder.joblib"))
 
