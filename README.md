@@ -48,6 +48,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## 🚀 Live Demo
+
+[Open Live Application] https://ddos-attacks-using-ml.onrender.com
+
 If the trained model files are missing, `main.py` will automatically run `ddos_ml_classifier.py` to generate the required model files before starting the Flask application.
 
 ## Technologies Used
